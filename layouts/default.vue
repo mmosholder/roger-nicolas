@@ -44,7 +44,7 @@
 
     <slot />
 
-    <div class="w-full flex py-4 justify-center contentContainer items-center">
+    <!-- <div class="w-full flex py-4 justify-center contentContainer items-center">
       <a href="https://www.instagram.com/roger.nicolas302/" target="_blank" class="px-2">
         <i class="fa-brands fa-instagram text-2xl"></i>
       </a>
@@ -61,6 +61,6 @@
       <a href="https://music.apple.com/us/artist/roger-nicolas/1737109176" target="_blank" class="px-2">
         <i class="fa-brands fa-apple text-2xl"></i>
       </a>
-    </div>
+    </div> -->
   </main>
 </template>
