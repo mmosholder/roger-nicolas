@@ -1,9 +1,9 @@
 <template>
-  <section class="contentContainer py-16">
+  <section class="contentContainer py-8 md:py-16" id="shows">
     <h2
-      class="px-1 inline-block text-3xl font-semiBold uppercase mb-6 relative after:absolute after:w-full after:h-[10px] after:bottom-[3px] after:left-0 after:z-[-1] after:bg-red-300/70">
-      Upcoming Events</h2>
-    <ul>
+      class="inline-block text-3xl font-semiBold uppercase mb-6 relative after:absolute after:w-full after:h-[10px] after:bottom-[3px] after:left-0 after:z-[-1] after:bg-red-300/70">
+      Upcoming Shows</h2>
+    <ul class="px-3">
       <li v-for="(event, i) in computedEvents">
         <SingleEvent :event="event" />
       </li>

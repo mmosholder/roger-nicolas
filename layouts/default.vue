@@ -7,10 +7,14 @@
         <ul class="flex justify-center gap-2">
           <!-- <li><a class="py-2 px-4 hover:underline md:text-sm uppercase transition-underline text-xs" href="/">Home</a>
           </li>
-          <li><a class="py-2 px-4 hover:underline md:text-sm uppercase transition-underline text-xs" href="/">Shows</a>
-          </li>
           <li><a class="py-2 px-4 hover:underline md:text-sm uppercase transition-underline text-xs" href="/">About</a>
           </li> -->
+          <li><a class="py-2 px-4 font-semibold hover:underline md:text-sm uppercase transition-underline text-xs"
+              href="#shows">Shows</a>
+          </li>
+          <li><a class="py-2 px-4 font-semibold hover:underline md:text-sm uppercase transition-underline text-xs"
+              href="#about">About</a>
+          </li>
           <li><a class="py-2 px-4 font-semibold hover:underline md:text-sm uppercase transition-underline text-xs"
               href="mailto:roger.nicolas302@gmail.com" target="_blank">Bookings</a></li>
         </ul>
@@ -39,5 +43,24 @@
     </div>
 
     <slot />
+
+    <div class="w-full flex py-4 justify-center contentContainer items-center">
+      <a href="https://www.instagram.com/roger.nicolas302/" target="_blank" class="px-2">
+        <i class="fa-brands fa-instagram text-2xl"></i>
+      </a>
+
+      <a href="https://www.youtube.com/@rogernicolas8055" target="_blank" class="px-2">
+        <i class="fa-brands fa-youtube text-2xl"></i>
+      </a>
+
+      <a href="https://open.spotify.com/artist/3uFRO5WoHpFPoFEBg5q4h3?si=jfpuK1a1Qr6zow5Z4UDE2w" target="_blank"
+        class="px-2">
+        <i class="fa-brands fa-spotify text-2xl"></i>
+      </a>
+
+      <a href="https://music.apple.com/us/artist/roger-nicolas/1737109176" target="_blank" class="px-2">
+        <i class="fa-brands fa-apple text-2xl"></i>
+      </a>
+    </div>
   </main>
 </template>
