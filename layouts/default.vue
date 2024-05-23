@@ -9,10 +9,10 @@
           </li>
           <li><a class="py-2 px-4 hover:underline md:text-sm uppercase transition-underline text-xs" href="/">About</a>
           </li> -->
-          <!-- <li><a class="py-2 px-4 font-semibold hover:underline md:text-sm uppercase transition-underline text-xs"
+          <li><a class="py-2 px-4 font-semibold hover:underline md:text-sm uppercase transition-underline text-xs"
               href="#shows">Shows</a>
           </li>
-          <li><a class="py-2 px-4 font-semibold hover:underline md:text-sm uppercase transition-underline text-xs"
+          <!-- <li><a class="py-2 px-4 font-semibold hover:underline md:text-sm uppercase transition-underline text-xs"
               href="#about">About</a>
           </li> -->
           <li><a class="py-2 px-4 font-semibold hover:underline md:text-sm uppercase transition-underline text-xs"
