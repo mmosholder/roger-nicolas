@@ -12,11 +12,11 @@
           <li><a class="py-2 px-4 font-semibold hover:underline md:text-sm uppercase transition-underline text-xs"
               href="#shows">Shows</a>
           </li>
-          <!-- <li><a class="py-2 px-4 font-semibold hover:underline md:text-sm uppercase transition-underline text-xs"
-              href="#about">About</a>
-          </li> -->
           <li><a class="py-2 px-4 font-semibold hover:underline md:text-sm uppercase transition-underline text-xs"
-              href="mailto:roger.nicolas302@gmail.com" target="_blank">Bookings</a></li>
+              href="#about">About</a>
+          </li>
+          <li><a class="py-2 px-4 font-semibold hover:underline md:text-sm uppercase transition-underline text-xs"
+              href="mailto:roger.nicolas302@gmail.com" target="_blank">Contact</a></li>
         </ul>
       </nav>
       <div class="w-full text-center py-6 z-[2]">

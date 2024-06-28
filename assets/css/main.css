@@ -6,8 +6,13 @@
   .contentContainer {
     width: 100%;
 
-    @media screen and (min-width: 768px) {
-      width: theme('spacing.160');
+    @media screen and (min-width: 700px) {
+      width: theme('spacing.180');
+      margin: 0 auto;
+    }
+
+    @media screen and (min-width: 900px) {
+      width: theme('spacing.240');
       margin: 0 auto;
     }
   }
