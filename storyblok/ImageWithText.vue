@@ -6,7 +6,7 @@
     <div
       class="flex md:gap-x-8 w-full md:flex-nowrap flex-wrap flex-col-reverse md:flex-row items-center justify-center md:items-start md:justify-start py-4">
       <div class="w-full md:w-2/3 flex flex-col items-start md:items-end py-2 md:py-0">
-        <div v-html="blok.text" class="text-left md:text-right" />
+        <div v-html="textContent" class="text-left md:text-right" />
       </div>
       <div class="w-full md:w-1/3 mb-6 md:mb-0">
         <img class="h-auto w-full" :src="blok.image.filename" :alt="blok.image.name">
