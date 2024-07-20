@@ -25,6 +25,13 @@
     "120": "30rem",
     "160": "40rem",
     "180": "45rem",
-    "240": "60rem"
+    "240": "60rem",
+    "320": "80rem"
+  },
+  "gridTemplateColumns": {
+    "photo": "repeat(auto-fit, minmax(200px, 1fr))"
+  },
+  "gridTemplateRows": {
+    "photo": "repeat(5, 200px);"
   }
 }

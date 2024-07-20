@@ -16,6 +16,24 @@
       margin: 0 auto;
     }
   }
+
+  .photoContainer {
+    width: 100%;
+  }
+
+  @media screen and (min-width: 700px) {
+    .photoContainer {
+      margin: 0 auto;
+      padding: 0 50px;
+    }
+  }
+
+  @media screen and (min-width: 1200px) {
+    .photoContainer {
+      margin: 0 auto;
+      padding: 0 120px;
+    }
+  }
 }
 
 @font-face {
